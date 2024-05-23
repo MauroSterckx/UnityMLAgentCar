@@ -1,0 +1,54 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1716394817",
+        "python_version": "3.9.19 (main, Mar 21 2024, 17:21:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\mauro\\anaconda3\\envs\\vr2\\Scripts\\mlagents-learn config/AgentML.yaml --run-id=AgentML --resume",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1716394829"
+    },
+    "total": 11.817231300000001,
+    "count": 1,
+    "self": 0.026555500000002397,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09382489999999999,
+            "count": 1,
+            "self": 0.09382489999999999
+        },
+        "TrainerController.start_learning": {
+            "total": 11.6968509,
+            "count": 1,
+            "self": 0.00014359999999946638,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.9465412,
+                    "count": 1,
+                    "self": 9.9465412
+                },
+                "trainer_threads": {
+                    "total": 7.999999986907369e-07,
+                    "count": 1,
+                    "self": 7.999999986907369e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 1.7501653000000008,
+                    "count": 1,
+                    "self": 0.013244000000000256,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 1.7369213000000006,
+                            "count": 1,
+                            "self": 1.7369213000000006
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

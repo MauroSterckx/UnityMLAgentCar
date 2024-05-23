@@ -1,0 +1,65 @@
+{
+    "AgentML": {
+        "checkpoints": [
+            {
+                "steps": 499985,
+                "file_path": "results\\AgentML\\AgentML\\AgentML-499985.onnx",
+                "reward": 3.727272727272727,
+                "creation_time": 1716391002.718724,
+                "auxillary_file_paths": [
+                    "results\\AgentML\\AgentML\\AgentML-499985.pt"
+                ]
+            },
+            {
+                "steps": 500022,
+                "file_path": "results\\AgentML\\AgentML\\AgentML-500022.onnx",
+                "reward": 4.083333333333333,
+                "creation_time": 1716391002.780667,
+                "auxillary_file_paths": [
+                    "results\\AgentML\\AgentML\\AgentML-500022.pt"
+                ]
+            },
+            {
+                "steps": 500022,
+                "file_path": "results\\AgentML\\AgentML\\AgentML-500022.onnx",
+                "reward": null,
+                "creation_time": 1716394743.8454514,
+                "auxillary_file_paths": [
+                    "results\\AgentML\\AgentML\\AgentML-500022.pt"
+                ]
+            },
+            {
+                "steps": 500022,
+                "file_path": "results\\AgentML\\AgentML\\AgentML-500022.onnx",
+                "reward": null,
+                "creation_time": 1716394770.3453937,
+                "auxillary_file_paths": [
+                    "results\\AgentML\\AgentML\\AgentML-500022.pt"
+                ]
+            },
+            {
+                "steps": 500022,
+                "file_path": "results\\AgentML\\AgentML\\AgentML-500022.onnx",
+                "reward": null,
+                "creation_time": 1716394829.0746653,
+                "auxillary_file_paths": [
+                    "results\\AgentML\\AgentML\\AgentML-500022.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 500022,
+            "file_path": "results\\AgentML\\AgentML.onnx",
+            "reward": null,
+            "creation_time": 1716394829.0746653,
+            "auxillary_file_paths": [
+                "results\\AgentML\\AgentML\\AgentML-500022.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

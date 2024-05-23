@@ -1,0 +1,65 @@
+{
+    "AgentML": {
+        "checkpoints": [
+            {
+                "steps": 499994,
+                "file_path": "results\\AgentML_track\\AgentML\\AgentML-499994.onnx",
+                "reward": -2.36,
+                "creation_time": 1716403621.4253368,
+                "auxillary_file_paths": [
+                    "results\\AgentML_track\\AgentML\\AgentML-499994.pt"
+                ]
+            },
+            {
+                "steps": 500016,
+                "file_path": "results\\AgentML_track\\AgentML\\AgentML-500016.onnx",
+                "reward": -2.3461538461538463,
+                "creation_time": 1716403621.4832199,
+                "auxillary_file_paths": [
+                    "results\\AgentML_track\\AgentML\\AgentML-500016.pt"
+                ]
+            },
+            {
+                "steps": 514296,
+                "file_path": "results\\AgentML_track\\AgentML\\AgentML-514296.onnx",
+                "reward": -2.7658227848101267,
+                "creation_time": 1716404202.4108477,
+                "auxillary_file_paths": [
+                    "results\\AgentML_track\\AgentML\\AgentML-514296.pt"
+                ]
+            },
+            {
+                "steps": 519521,
+                "file_path": "results\\AgentML_track\\AgentML\\AgentML-519521.onnx",
+                "reward": -2.0,
+                "creation_time": 1716404314.879266,
+                "auxillary_file_paths": [
+                    "results\\AgentML_track\\AgentML\\AgentML-519521.pt"
+                ]
+            },
+            {
+                "steps": 794340,
+                "file_path": "results\\AgentML_track\\AgentML\\AgentML-794340.onnx",
+                "reward": -3.8461538461538463,
+                "creation_time": 1716408152.551299,
+                "auxillary_file_paths": [
+                    "results\\AgentML_track\\AgentML\\AgentML-794340.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 794340,
+            "file_path": "results\\AgentML_track\\AgentML.onnx",
+            "reward": -3.8461538461538463,
+            "creation_time": 1716408152.551299,
+            "auxillary_file_paths": [
+                "results\\AgentML_track\\AgentML\\AgentML-794340.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

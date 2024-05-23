@@ -1,0 +1,29 @@
+{
+    "AgentML": {
+        "checkpoints": [
+            {
+                "steps": 3268,
+                "file_path": "results\\AgentML_track_2\\AgentML\\AgentML-3268.onnx",
+                "reward": -3.0,
+                "creation_time": 1716403838.8942423,
+                "auxillary_file_paths": [
+                    "results\\AgentML_track_2\\AgentML\\AgentML-3268.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 3268,
+            "file_path": "results\\AgentML_track_2\\AgentML.onnx",
+            "reward": -3.0,
+            "creation_time": 1716403838.8942423,
+            "auxillary_file_paths": [
+                "results\\AgentML_track_2\\AgentML\\AgentML-3268.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

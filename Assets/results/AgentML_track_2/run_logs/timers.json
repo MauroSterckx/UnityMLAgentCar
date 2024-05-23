@@ -1,0 +1,167 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1716403736",
+        "python_version": "3.9.19 (main, Mar 21 2024, 17:21:27) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\mauro\\anaconda3\\envs\\vr2\\Scripts\\mlagents-learn config/AgentML.yaml --run-id=AgentML_track_2",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1716403838"
+    },
+    "total": 102.6683501,
+    "count": 1,
+    "self": 0.005569100000002436,
+    "children": {
+        "run_training.setup": {
+            "total": 0.09430469999999991,
+            "count": 1,
+            "self": 0.09430469999999991
+        },
+        "TrainerController.start_learning": {
+            "total": 102.5684763,
+            "count": 1,
+            "self": 0.08370850000002861,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.871832499999999,
+                    "count": 1,
+                    "self": 7.871832499999999
+                },
+                "TrainerController.advance": {
+                    "total": 94.45164259999997,
+                    "count": 3624,
+                    "self": 0.07126540000048465,
+                    "children": {
+                        "env_step": {
+                            "total": 91.40760459999974,
+                            "count": 3624,
+                            "self": 76.24163479999929,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 15.119376799999943,
+                                    "count": 3625,
+                                    "self": 0.23359640000028037,
+                                    "children": {
+                                        "TorchPolicy.evaluate": {
+                                            "total": 14.885780399999662,
+                                            "count": 3275,
+                                            "self": 14.885780399999662
+                                        }
+                                    }
+                                },
+                                "workers": {
+                                    "total": 0.04659300000051658,
+                                    "count": 3623,
+                                    "self": 0.0,
+                                    "children": {
+                                        "worker_root": {
+                                            "total": 49.82133840000017,
+                                            "count": 3623,
+                                            "is_parallel": true,
+                                            "self": 24.098917500000375,
+                                            "children": {
+                                                "steps_from_proto": {
+                                                    "total": 0.0011213999999952762,
+                                                    "count": 2,
+                                                    "is_parallel": true,
+                                                    "self": 0.0005780999999940306,
+                                                    "children": {
+                                                        "_process_rank_one_or_two_observation": {
+                                                            "total": 0.0005433000000012456,
+                                                            "count": 4,
+                                                            "is_parallel": true,
+                                                            "self": 0.0005433000000012456
+                                                        }
+                                                    }
+                                                },
+                                                "UnityEnvironment.step": {
+                                                    "total": 25.7212994999998,
+                                                    "count": 3623,
+                                                    "is_parallel": true,
+                                                    "self": 0.2898929999993882,
+                                                    "children": {
+                                                        "UnityEnvironment._generate_step_input": {
+                                                            "total": 0.2675321000000572,
+                                                            "count": 3623,
+                                                            "is_parallel": true,
+                                                            "self": 0.2675321000000572
+                                                        },
+                                                        "communicator.exchange": {
+                                                            "total": 24.3201964000002,
+                                                            "count": 3623,
+                                                            "is_parallel": true,
+                                                            "self": 24.3201964000002
+                                                        },
+                                                        "steps_from_proto": {
+                                                            "total": 0.8436780000001569,
+                                                            "count": 3623,
+                                                            "is_parallel": true,
+                                                            "self": 0.4594911000003101,
+                                                            "children": {
+                                                                "_process_rank_one_or_two_observation": {
+                                                                    "total": 0.3841868999998468,
+                                                                    "count": 7246,
+                                                                    "is_parallel": true,
+                                                                    "self": 0.3841868999998468
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "trainer_advance": {
+                            "total": 2.9727725999997503,
+                            "count": 3623,
+                            "self": 0.10122679999953021,
+                            "children": {
+                                "process_trajectory": {
+                                    "total": 1.4076319000002258,
+                                    "count": 3623,
+                                    "self": 1.4076319000002258
+                                },
+                                "_update_policy": {
+                                    "total": 1.4639138999999943,
+                                    "count": 1,
+                                    "self": 0.25266910000000564,
+                                    "children": {
+                                        "TorchPPOOptimizer.update": {
+                                            "total": 1.2112447999999887,
+                                            "count": 96,
+                                            "self": 1.2112447999999887
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "trainer_threads": {
+                    "total": 1.1000000057492798e-06,
+                    "count": 1,
+                    "self": 1.1000000057492798e-06
+                },
+                "TrainerController._save_models": {
+                    "total": 0.16129159999999843,
+                    "count": 1,
+                    "self": 0.010606899999999087,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.15068469999999934,
+                            "count": 1,
+                            "self": 0.15068469999999934
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
