@@ -1,0 +1,65 @@
+{
+    "RayAgent": {
+        "checkpoints": [
+            {
+                "steps": 26021,
+                "file_path": "results\\RayAgent\\RayAgent\\RayAgent-26021.onnx",
+                "reward": 707.5,
+                "creation_time": 1716539546.5385592,
+                "auxillary_file_paths": [
+                    "results\\RayAgent\\RayAgent\\RayAgent-26021.pt"
+                ]
+            },
+            {
+                "steps": 30831,
+                "file_path": "results\\RayAgent\\RayAgent\\RayAgent-30831.onnx",
+                "reward": null,
+                "creation_time": 1716539740.5706346,
+                "auxillary_file_paths": [
+                    "results\\RayAgent\\RayAgent\\RayAgent-30831.pt"
+                ]
+            },
+            {
+                "steps": 32503,
+                "file_path": "results\\RayAgent\\RayAgent\\RayAgent-32503.onnx",
+                "reward": -200.5,
+                "creation_time": 1716539941.5477533,
+                "auxillary_file_paths": [
+                    "results\\RayAgent\\RayAgent\\RayAgent-32503.pt"
+                ]
+            },
+            {
+                "steps": 34081,
+                "file_path": "results\\RayAgent\\RayAgent\\RayAgent-34081.onnx",
+                "reward": -193.5,
+                "creation_time": 1716540098.9507966,
+                "auxillary_file_paths": [
+                    "results\\RayAgent\\RayAgent\\RayAgent-34081.pt"
+                ]
+            },
+            {
+                "steps": 140856,
+                "file_path": "results\\RayAgent\\RayAgent\\RayAgent-140856.onnx",
+                "reward": 95.0,
+                "creation_time": 1716542118.0485253,
+                "auxillary_file_paths": [
+                    "results\\RayAgent\\RayAgent\\RayAgent-140856.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 140856,
+            "file_path": "results\\RayAgent\\RayAgent.onnx",
+            "reward": 95.0,
+            "creation_time": 1716542118.0485253,
+            "auxillary_file_paths": [
+                "results\\RayAgent\\RayAgent\\RayAgent-140856.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

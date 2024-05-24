@@ -83,7 +83,7 @@ public class AgentML : Agent
         if (Vector3.Distance(transform.localPosition, waypoints[currentWaypointIndex].position) < 3.0f)
         {
             reward += 1.0f; // Beloon de agent als hij een waypoint bereikt
-            SetReward(+1f);
+            SetReward(+20f);
             //Debug.Log("Waypoint bereikt: " + currentWaypointIndex);
             if (currentWaypointIndex != 0)
             {
@@ -107,8 +107,8 @@ public class AgentML : Agent
             if (currentWaypointIndex >= 5)
             {
                 allWaypointsReached = true;
-                // Grote beloning voor het behalen van 2 waypoints
-                SetReward(+4.0f);
+                // Grote beloning voor het behalen van waypoints
+                SetReward(+10.0f);
                 Debug.Log("Hit 5");
             }
 
@@ -116,7 +116,7 @@ public class AgentML : Agent
             {
                 allWaypointsReached = true;
                 // Grote beloning voor het behalen van 2 waypoints
-                SetReward(+2.0f);
+                SetReward(+5.0f);
                 Debug.Log("Hit 4");
             }
         }

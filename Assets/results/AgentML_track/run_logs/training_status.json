@@ -2,58 +2,58 @@
     "AgentML": {
         "checkpoints": [
             {
-                "steps": 499994,
-                "file_path": "results\\AgentML_track\\AgentML\\AgentML-499994.onnx",
-                "reward": -2.36,
-                "creation_time": 1716403621.4253368,
+                "steps": 992708,
+                "file_path": "results\\AgentML_track\\AgentML\\AgentML-992708.onnx",
+                "reward": -0.4772727272727273,
+                "creation_time": 1716461782.3129442,
                 "auxillary_file_paths": [
-                    "results\\AgentML_track\\AgentML\\AgentML-499994.pt"
+                    "results\\AgentML_track\\AgentML\\AgentML-992708.pt"
                 ]
             },
             {
-                "steps": 500016,
-                "file_path": "results\\AgentML_track\\AgentML\\AgentML-500016.onnx",
-                "reward": -2.3461538461538463,
-                "creation_time": 1716403621.4832199,
+                "steps": 999972,
+                "file_path": "results\\AgentML_track\\AgentML\\AgentML-999972.onnx",
+                "reward": 1.6,
+                "creation_time": 1716461911.6513302,
                 "auxillary_file_paths": [
-                    "results\\AgentML_track\\AgentML\\AgentML-500016.pt"
+                    "results\\AgentML_track\\AgentML\\AgentML-999972.pt"
                 ]
             },
             {
-                "steps": 514296,
-                "file_path": "results\\AgentML_track\\AgentML\\AgentML-514296.onnx",
-                "reward": -2.7658227848101267,
-                "creation_time": 1716404202.4108477,
+                "steps": 1000036,
+                "file_path": "results\\AgentML_track\\AgentML\\AgentML-1000036.onnx",
+                "reward": 1.6,
+                "creation_time": 1716461911.7180555,
                 "auxillary_file_paths": [
-                    "results\\AgentML_track\\AgentML\\AgentML-514296.pt"
+                    "results\\AgentML_track\\AgentML\\AgentML-1000036.pt"
                 ]
             },
             {
-                "steps": 519521,
-                "file_path": "results\\AgentML_track\\AgentML\\AgentML-519521.onnx",
-                "reward": -2.0,
-                "creation_time": 1716404314.879266,
+                "steps": 1003102,
+                "file_path": "results\\AgentML_track\\AgentML\\AgentML-1003102.onnx",
+                "reward": 0.9047619047619048,
+                "creation_time": 1716463496.9453084,
                 "auxillary_file_paths": [
-                    "results\\AgentML_track\\AgentML\\AgentML-519521.pt"
+                    "results\\AgentML_track\\AgentML\\AgentML-1003102.pt"
                 ]
             },
             {
-                "steps": 794340,
-                "file_path": "results\\AgentML_track\\AgentML\\AgentML-794340.onnx",
-                "reward": -3.8461538461538463,
-                "creation_time": 1716408152.551299,
+                "steps": 1152882,
+                "file_path": "results\\AgentML_track\\AgentML\\AgentML-1152882.onnx",
+                "reward": 40.3,
+                "creation_time": 1716465647.6694522,
                 "auxillary_file_paths": [
-                    "results\\AgentML_track\\AgentML\\AgentML-794340.pt"
+                    "results\\AgentML_track\\AgentML\\AgentML-1152882.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 794340,
+            "steps": 1152882,
             "file_path": "results\\AgentML_track\\AgentML.onnx",
-            "reward": -3.8461538461538463,
-            "creation_time": 1716408152.551299,
+            "reward": 40.3,
+            "creation_time": 1716465647.6694522,
             "auxillary_file_paths": [
-                "results\\AgentML_track\\AgentML\\AgentML-794340.pt"
+                "results\\AgentML_track\\AgentML\\AgentML-1152882.pt"
             ]
         }
     },
